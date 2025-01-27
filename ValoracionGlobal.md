@@ -1,81 +1,52 @@
-### Lista de Verificación Integral de Prácticas de Programación en PHP
+## Lista de Verificación Integral de Prácticas de Programación en PHP
 
-#### Eficiencia en la Codificación
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Algoritmos y lógica eficientes.
-  - Redundancia mínima en el código.
-  - Uso óptimo de estructuras de datos.
+### **Evaluación Unificada: Aplicación de Cuestionario en PHP**
 
-#### Limpieza del Código
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Código bien organizado y estructurado.
-  - Indentación y formato consistentes.
-  - Comentarios y documentación claros y útiles.
+**Criterios de Evaluación:**
 
-#### Uso de Programación Orientada a Objetos (POO)
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Uso adecuado de clases y objetos.
-  - Uso efectivo de herencia y polimorfismo.
-  - Encapsulación y ocultamiento de datos implementados apropiadamente.
+#### 1. **Diseño e Implementación de la Base de Datos**
+- [ ] La base de datos está correctamente diseñada con tablas para usuarios, cuestionarios, preguntas y respuestas.
+- [ ] La estructura de las tablas incluye claves primarias, relaciones entre tablas y validaciones adecuadas.
+- [ ] Las consultas SQL funcionan correctamente para recuperar y almacenar datos del cuestionario.
 
-#### Nombres de Variables y Funciones
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Nombres descriptivos y significativos.
-  - Convenciones de nomenclatura consistentes.
-  - Evitación de nombres ambiguos o engañosos.
+#### 2. **Interfaz de Usuario**
+- [ ] El diseño del formulario de cuestionario es claro, funcional y fácil de usar.
+- [ ] Se utilizan elementos como botones de opción, menús desplegables y campos de texto para una experiencia de usuario intuitiva.
+- [ ] La interfaz es completamente dinámica, cargando preguntas desde la base de datos.
 
-#### Manejo de Errores y Validación
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Mecanismos integrales de manejo de errores.
-  - Validación de entrada y saneamiento de datos.
-  - Manejo elegante de casos excepcionales.
+#### 3. **Autenticación y Gestión de Sesiones**
+- [ ] Los usuarios pueden registrarse, iniciar sesión y cerrar sesión correctamente.
+- [ ] Las contraseñas están encriptadas antes de almacenarse en la base de datos.
+- [ ] Las sesiones están bien gestionadas para rastrear el progreso del usuario en el cuestionario.
 
-#### Interacción con la Base de Datos
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Consultas a la base de datos eficientes.
-  - Uso de sentencias preparadas o ORM para la seguridad.
-  - Gestión adecuada de las conexiones a la base de datos.
+#### 4. **Lógica de Cuestionario**
+- [ ] La aplicación valida que todas las preguntas sean respondidas antes de permitir el envío.
+- [ ] Se calculan correctamente las puntuaciones basándose en las respuestas proporcionadas.
+- [ ] Se proporciona retroalimentación inmediata al usuario indicando respuestas correctas e incorrectas.
 
-#### Mejores Prácticas de Seguridad
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Implementación de protección CSRF, XSS.
-  - Manejo seguro de la autenticación de usuarios y datos.
-  - Auditorías de seguridad regulares y actualizaciones.
+#### 5. **Funcionalidad CRUD**
+- [ ] Los administradores pueden añadir, editar y eliminar cuestionarios y preguntas desde un panel de gestión.
+- [ ] Los cambios realizados en los cuestionarios se reflejan en tiempo real en la interfaz de usuario.
 
-#### Interfaz de Usuario y Experiencia
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Diseño intuitivo y fácil de usar.
-  - Diseño adaptable para varios dispositivos.
-  - Características de accesibilidad para una mayor inclusión.
+#### 6. **Seguridad**
+- [ ] La aplicación está protegida contra inyecciones SQL y XSS.
+- [ ] Los datos del usuario y los cuestionarios están gestionados de manera segura.
+- [ ] Las cookies (si se utilizan) están configuradas correctamente para funciones como "Recordarme".
 
-#### Pruebas y Depuración
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Pruebas integrales unitarias e integración.
-  - Uso regular de herramientas de depuración.
-  - Código en gran medida libre de errores y estable.
+#### 7. **Pruebas y Depuración**
+- [ ] Se realizaron pruebas exhaustivas para garantizar el correcto funcionamiento de las funcionalidades principales.
+- [ ] Los errores encontrados durante el desarrollo fueron documentados y resueltos.
 
-#### Documentación e Informes
-- [ ] Totalmente Logrado
-- [ ] Parcialmente Logrado
-- [ ] No Logrado
-  - Documentación completa y detallada del proyecto.
-  - Informes regulares de progreso y actualizaciones.
-  - Instrucciones claras para la configuración y uso.
+#### 8. **Extensibilidad y Características Adicionales**
+- [ ] Opciones adicionales como temporizadores, aleatorización de preguntas o estadísticas están bien implementadas (opcional).
+- [ ] La aplicación incluye características útiles como la posibilidad de guardar y continuar un cuestionario más tarde.
+
+**Ponderación:**
+- Diseño de la base de datos: 20%
+- Interfaz de usuario: 15%
+- Autenticación y sesiones: 15%
+- Lógica del cuestionario: 20%
+- CRUD y administración: 15%
+- Seguridad: 10%
+- Extensibilidad (opcional): 5%
+
